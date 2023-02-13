@@ -3,6 +3,7 @@ package com.jbntech.auth.AuthenticationApp2.config;
 import com.jbntech.auth.AuthenticationApp2.entity.User;
 import com.jbntech.auth.AuthenticationApp2.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
